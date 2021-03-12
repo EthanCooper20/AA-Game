@@ -469,11 +469,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 0}
   scorevalue: 0
-  lives: {fileID: 0}
-  playername: {fileID: 0}
+  lives: {fileID: 497737643}
+  playername: {fileID: 1528038173}
   currentlives: 0
   inputname: {fileID: 0}
   stringofname: 
+  rotatorspeed: {fileID: 1662164981}
+  rotatorspeedvalue: 0
+  pinspeed: {fileID: 922284417}
+  pinspeedvalue: 0
+  gametime: {fileID: 1908279759}
+  gametimevalue: 0
 --- !u!1 &301316989
 GameObject:
   m_ObjectHideFlags: 0
@@ -3479,7 +3485,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.41449884}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 104, y: 0.0000027185}
+  m_AnchoredPosition: {x: 104, y: 0.0000038146973}
   m_SizeDelta: {x: 160, y: 0.0000038146973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2091755680

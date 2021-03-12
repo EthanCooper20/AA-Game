@@ -14,6 +14,12 @@ public class gamecontrol : MonoBehaviour
     public int currentlives;
     public InputField inputname;
     public string stringofname;
+    public Text rotatorspeed;
+    public int rotatorspeedvalue;
+    public Text pinspeed;
+    public int pinspeedvalue;
+    public Text gametime;
+    public int gametimevalue;
 
 
 
