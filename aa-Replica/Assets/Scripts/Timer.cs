@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class Timer : MonoBehaviour
+public class Timer : MonoBehaviour 
 {
-    public float timeRemaining = 100;
+
+    public float timeRemaining = 60;
     public bool timerIsRunning = false;
     public Text timeText;
 
@@ -27,6 +29,7 @@ public class Timer : MonoBehaviour
             else
             {
                 Debug.Log("Game Over!");
+                SceneManager.LoadScene("Credits");
                 timeRemaining = 0;
                 timerIsRunning = false;
             }
@@ -42,4 +45,5 @@ public class Timer : MonoBehaviour
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
 }

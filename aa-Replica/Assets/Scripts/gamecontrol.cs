@@ -10,10 +10,7 @@ public class gamecontrol : MonoBehaviour
     public Text score;
     public int scorevalue;
     public Text lives;
-    public Text playername;
     public int currentlives;
-    public InputField inputname;
-    public string stringofname;
     public Text rotatorspeed;
     public int rotatorspeedvalue;
     public Text pinspeed;
