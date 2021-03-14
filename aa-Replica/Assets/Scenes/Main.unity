@@ -1087,7 +1087,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 711746013}
-  - component: {fileID: 711746015}
   - component: {fileID: 711746014}
   - component: {fileID: 711746016}
   m_Layer: 0
@@ -1123,21 +1122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a9962dfb1b7a0641a6820ae984a64a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &711746015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711746012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ff4884bcbb402c44bbfd25257aaaec1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeRemaining: 60
-  timerIsRunning: 0
-  timeText: {fileID: 1871746212}
 --- !u!114 &711746016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1153,8 +1137,6 @@ MonoBehaviour:
   LivesText: {fileID: 839671762}
   score: {fileID: 0}
   scorevalue: 0
-  lives: {fileID: 0}
-  currentlives: 0
   rotatorspeed: {fileID: 0}
   rotatorspeedvalue: 0
   pinspeed: {fileID: 0}
@@ -1174,6 +1156,7 @@ GameObject:
   - component: {fileID: 752834479}
   - component: {fileID: 752834478}
   - component: {fileID: 752834482}
+  - component: {fileID: 752834483}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1276,6 +1259,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d05e26542a045743b292c3a2a5489d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &752834483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 752834477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ff4884bcbb402c44bbfd25257aaaec1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeRemaining: 60
+  timerIsRunning: 0
+  timeText: {fileID: 1871746212}
 --- !u!1 &785374598
 GameObject:
   m_ObjectHideFlags: 0
