@@ -1088,6 +1088,8 @@ GameObject:
   m_Component:
   - component: {fileID: 711746013}
   - component: {fileID: 711746015}
+  - component: {fileID: 711746014}
+  - component: {fileID: 711746016}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1109,6 +1111,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &711746014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711746012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9962dfb1b7a0641a6820ae984a64a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &711746015
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1124,6 +1138,29 @@ MonoBehaviour:
   timeRemaining: 60
   timerIsRunning: 0
   timeText: {fileID: 1871746212}
+--- !u!114 &711746016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711746012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3736bce7d091f7a45835e0c84c7aff2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LivesText: {fileID: 839671762}
+  score: {fileID: 0}
+  scorevalue: 0
+  lives: {fileID: 0}
+  currentlives: 0
+  rotatorspeed: {fileID: 0}
+  rotatorspeedvalue: 0
+  pinspeed: {fileID: 0}
+  pinspeedvalue: 0
+  gametime: {fileID: 0}
+  gametimevalue: 0
 --- !u!1 &752834477
 GameObject:
   m_ObjectHideFlags: 0

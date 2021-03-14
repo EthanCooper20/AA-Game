@@ -8,10 +8,11 @@ public class Menu : MonoBehaviour
 {
     public InputField playername;
 
-    public void StartGame()
+    public void StartGame(string input)
     {
         Debug.Log("Player Name is:"  + playername.text);
         MySettings.playernamestr = playername.text;
+        StateNameController.Lives = input;
         SceneManager.LoadScene("Main");
     }
 }
