@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
     public InputField playername;
+
     public void StartGame()
     {
         Debug.Log("Player Name is:"  + playername.text);

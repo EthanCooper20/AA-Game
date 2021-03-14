@@ -8,6 +8,7 @@ public class MySettings : MonoBehaviour
 {
     public static string playernamestr;
 
+
     public Text playername;
 
     void Start ()
